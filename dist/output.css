@@ -766,6 +766,14 @@ video {
   display: none;
 }
 
+.h-auto {
+  height: auto;
+}
+
+.max-w-full {
+  max-width: 100%;
+}
+
 .flex-shrink {
   flex-shrink: 1;
 }
@@ -1576,6 +1584,10 @@ video {
 
 .rounded {
   border-radius: 0.25rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
 }
 
 .rounded-b {
